@@ -1,0 +1,210 @@
+
+
+
+
+.main-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  max-width: 330px;
+}
+
+.container-1{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.container-2{
+  display: flex;
+flex-direction: column;
+}
+
+.container-3{
+  display: flex;
+flex-direction: column;
+}
+
+
+main{
+  max-width: 450px;
+}
+
+input{
+  max-width: 120px;
+  height: 30px;
+  margin: 0px;
+  margin-bottom: 20px;
+  border: solid red 1px;
+  border-radius: 5px;
+  padding: 3px 10px;
+}
+
+
+button{
+  color: white;
+  background-color:red;
+  width: 200px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.button-container{
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+
+.inverse-matrix{
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 40px;
+  margin-left: 20px;
+column-gap: 10px;
+row-gap: 20px;
+height: 150px;
+}
+
+
+
+
+
+
+
+.answers{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.determinant-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.statement{
+  margin-top: 20px;
+  color: red;
+  font-size: 21px;
+}
+
+.css-determinantinverse{
+  color: red;
+  font-size: 20px;
+}
+
+.nom-det{
+  color: blueviolet;
+  font-size: 20px;
+}
+
+.inverse-1{
+  color: blue;
+  font-size: 19px;
+}
+.inverse-2{
+  color: blue;
+  font-size: 19px;
+}
+.inverse-3{
+  color: blue;
+  font-size: 19px;
+}
+.inverse-4{
+  color: blue;
+  font-size: 19px;
+}
+.inverse-5{
+  color: blue;
+  font-size: 19px;
+}
+.inverse-6{
+  color: blue;
+  font-size: 19px;
+}
+.inverse-7{
+  color: blue;
+  font-size: 19px;
+}
+.inverse-8{
+  color: blue;
+  font-size: 19px;
+}
+.inverse-9{
+  color: blue;
+  font-size: 19px;
+}
+
+
+.transpose{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  color: red;
+  font-size: 19px;
+}
+
+.transpose-statement{
+  color: blueviolet;
+font-size: 20px;
+
+}
+
+.cofactor-inverse-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.sub-container-inverse{
+  display: flex;
+  flex: 300px;
+}
+
+.inverse-matrix-container{
+  padding-right: 20px;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 80px;
+ row-gap: 50px;
+ color: red;
+ font-size: 19px;
+}
+
+
+.transposed{
+  margin-bottom: 50px;
+}
+p.messege{
+  color: purple;
+  font-size: 20px;
+  
+  cursor: pointer;
+}
+
+p.equition-solver-link:active{
+  color: blue;
+}
+
+.equition-solver-link{
+color: green;
+font-size: 20px;
+text-decoration: underline;
+}
+
+
